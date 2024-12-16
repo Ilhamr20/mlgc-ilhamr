@@ -33,8 +33,8 @@ steps:
         "asia-southeast2",
         "--allow-unauthenticated",
       ]
-    options:
-      logging: CLOUD_LOGGING_ONLY
+    # Menghapus field 'options' yang tidak valid
+    # Jika Anda ingin mengonfigurasi logging, gunakan fitur logging Cloud Run atau pengaturan lainnya.
 
 images:
   - "asia-southeast2-docker.pkg.dev/submission-mlgc-ilhamr/mlgc-backend/asclepius"
